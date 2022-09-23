@@ -97,6 +97,13 @@
       "category": "transportation",
       "amount": "5000",
       "id": 14
+    },
+    {
+      "date": "2022-09-29",
+      "description": "fees",
+      "category": "parking",
+      "amount": "500",
+      "id": 15
     }
   ]
 }
