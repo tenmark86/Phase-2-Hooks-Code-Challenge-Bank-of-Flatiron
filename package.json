@@ -1,7 +1,7 @@
 {
+  "homepage": "https://tenmark86.github.io/Phase-2-Hooks-Code-Challenge-Bank-of-Flatiron",
   "name": "react-hooks-bank-of-flatiron-code-challenge",
   "version": "0.1.0",
-  "homepage": "https://tenmark86.github.io/Phase-2-Hooks-Code-Challenge-Bank-of-Flatiron",
   "private": true,
   "dependencies": {
     "react": "^17.0.1",
@@ -15,9 +15,12 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
-    "start": "PORT=8000 react-scripts start",
-    "server": "json-server --watch db.json -p 8001"
+    "deploy": "gh-pages -d build",
+    "server": "json-server --watch db.json -p build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
