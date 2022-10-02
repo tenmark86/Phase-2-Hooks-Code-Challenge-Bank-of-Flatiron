@@ -10,16 +10,11 @@
     "semantic-ui-css": "^2.2.10"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   },
-  
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "PORT=8000 react-scripts start",
+    "server": "json-server --watch db.json -p 8001"
   },
   "eslintConfig": {
     "extends": [
